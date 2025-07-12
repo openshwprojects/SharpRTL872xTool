@@ -24,13 +24,13 @@ jobs:
         uses: NuGet/setup-nuget@v2
 
       - name: Restore NuGet packages
-        run: nuget restore SharpRTL872xTool/SharpRTL872xTool.csproj -SolutionDirectory .
+        run: nuget restore SharpRTL872xTool/RTL872xDx_Flasher.csproj -SolutionDirectory .
 
       - name: Create Output Directory
         run: mkdir -p BuildOutput/Release
 
       - name: Build the project
-        run: msbuild SharpRTL872xTool/SharpRTL872xTool.csproj /p:Configuration=Release /p:OutDir=BuildOutput\Release\
+        run: msbuild SharpRTL872xTool/RTL872xDx_Flasher.csproj /p:Configuration=Release /p:OutDir=BuildOutput\Release\
 
       - name: Debug Build Output
         run: |
