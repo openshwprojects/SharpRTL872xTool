@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTL872xDx_Flasher", "RTL872xDx_Flasher.csproj", "{BCEF24AD-DAD7-4BBE-91F1-15CECDA52BDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEF24AD-DAD7-4BBE-91F1-15CECDA52BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEF24AD-DAD7-4BBE-91F1-15CECDA52BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEF24AD-DAD7-4BBE-91F1-15CECDA52BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEF24AD-DAD7-4BBE-91F1-15CECDA52BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98DCAC20-DC6A-4B9B-AE4C-71B6CD55BC83}
+	EndGlobalSection
+EndGlobal
