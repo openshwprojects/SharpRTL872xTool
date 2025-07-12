@@ -9,6 +9,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write  # <<< this is required to allow release creation
+
 jobs:
   build:
     runs-on: windows-latest
