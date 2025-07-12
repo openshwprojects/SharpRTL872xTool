@@ -37,7 +37,7 @@ jobs:
         
       - name: Copy sample files next to .exe
         run: |
-          xcopy samples\* SharpRTL872xTool\BuildOutput\Release\ /E /Y /I
+          xcopy samples\*.* SharpRTL872xTool\BuildOutput\Release\ /S /Y
 
       - name: Debug Build Output
         run: |
