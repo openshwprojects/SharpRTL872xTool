@@ -76,6 +76,9 @@ jobs:
           mkdir -p BuildOutput/Release
           move *.exe BuildOutput/Release/
           move *.dll BuildOutput/Release/
+          move *.bin BuildOutput/Release/
+          move *.cmd BuildOutput/Release/
+          move *.bat BuildOutput/Release/
 
       - name: Debug Downloaded Artifacts
         run: |
